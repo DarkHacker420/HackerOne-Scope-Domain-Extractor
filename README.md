@@ -42,3 +42,23 @@ A simple, browser-based JavaScript tool to extract **all scoped domains** from a
 
   console.log(`[+] Extracted ${uniqueDomains.length} domains`);
 })();
+
+
+📁 Output
+The script will automatically download a domains.txt file containing all the unique domains listed in the scope section of the HackerOne program.
+
+📌 Notes
+Ensure all paginated scope items are fully loaded by scrolling down the list before executing the script.
+
+This works best on modern browsers (Chrome, Firefox).
+
+🚀 Use Cases
+Bug bounty recon
+
+Asset discovery for in-scope domains
+
+Quick copy of all domains for automation tools
+
+🧠 Credits
+Created with ❤️ by @DarkHacker420
+Bug bounty | Recon | Automation
